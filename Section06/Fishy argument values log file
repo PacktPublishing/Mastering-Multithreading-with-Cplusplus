@@ -1,0 +1,5 @@
+==32233== Argument 'size' of function malloc has a fishy (possibly
+negative) value: -3
+==32233== at 0x4C2CFA7: malloc (vg_replace_malloc.c:298)
+==32233== by 0x400555: foo (fishy.c:15)
+==32233== by 0x400583: main (fishy.c:23)
